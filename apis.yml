@@ -1,7 +1,15 @@
 aid: mantl
 name: MANTL
-description: MANTL is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MANTL is an account and deposit origination software company for banks and
+  credit unions. Its omnichannel platform lets financial institutions open
+  consumer and business deposit and loan accounts across online and in-branch
+  channels, integrating with existing core banking systems to modernize
+  onboarding and accelerate deposit growth. More than 100 institutions raise
+  over $1 billion in deposits monthly through the platform. MANTL was surfaced
+  as a Techstars portfolio company and added to the API Evangelist network. It
+  publishes no public API or developer portal — this profile captures its
+  public web, legal, support, and system-status surfaces.
 url: https://raw.githubusercontent.com/api-evangelist/mantl/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,31 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Financial Services
+- Banking
+- Credit Unions
+- Account Opening
+- Deposit Origination
+- Loan Origination
+- Fintech
+- Onboarding
+image: https://www.mantl.com/wp-content/uploads/2024/06/cropped-M-square_bluebg@2x-192x192.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://mantl.com/
+  url: https://www.mantl.com/
+- type: About
+  url: https://www.mantl.com/about/
+- type: Blog
+  url: https://www.mantl.com/resources/
+- type: Support
+  url: https://www.mantl.com/contact-us/
+- type: SignUp
+  url: https://www.mantl.com/request-a-demo/
+- type: TermsOfService
+  url: https://www.mantl.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.mantl.com/privacy-policy/
+- type: StatusPage
+  url: https://status.mantl.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
