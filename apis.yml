@@ -11,6 +11,9 @@ description: >-
   publishes no public API or developer portal — this profile captures its
   public web, legal, support, and system-status surfaces.
 url: https://raw.githubusercontent.com/api-evangelist/mantl/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It publishes no public API or developer portal — this profile captures its public web, legal, support, and system-status surfaces."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
