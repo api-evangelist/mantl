@@ -47,7 +47,7 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Banking
 - Credit Union
 - Account Opening
@@ -65,6 +65,7 @@ tags_raw:
 - Loan Origination
 - Fintech
 - Onboarding
+- Financial-Services
 image: https://www.mantl.com/wp-content/uploads/2024/06/cropped-M-square_bluebg@2x-192x192.png
 apis: []
 maintainers:
